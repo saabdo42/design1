@@ -1,0 +1,53 @@
+.greenbcg{
+    background-color: darkslategrey;
+}
+
+.space{
+    padding: 2%;
+}
+
+.rightcolumn{
+    float: right;
+    width: 46%;
+}
+
+.leftcolumn{
+    float: left;
+    width: 46%
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+h1 { 
+    font-family: cursive;
+    color:white;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: cursive;
+    color:palegreen;
+    font-size: 1.5em;
+}
+
+p { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color:yellowgreen;
+}
+
+a:link{
+    color:palegreen;
+}
+a:visited{
+    color:yellowgreen;
+}
+a:hover{
+    color:crimson;
+}
+a:active{
+    color:white;
+}

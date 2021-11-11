@@ -1,0 +1,72 @@
+
+body {
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.space{
+    padding: 2%;
+}
+
+@keyframes bounce {
+    0% {position: fixed; top:0%; left:50% }
+    25% {position: fixed; top:50%; left:90% }
+    50% {position: fixed; top:80%; left:50% }
+    75% {position: fixed; top:50%; left:0% }
+    100% {position: fixed; top:0%; left:50%}
+}
+
+#bounce{
+    height:20%;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+img{
+    height:100%;
+    width:auto;
+}
+
+h1 { 
+    font-family: garamond;
+    font-weight:bolder;
+    color:white;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: garamond;
+    font-weight: bold;
+    color:crimson;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: garamond;
+    font-size: 1.1em;
+    color:palegreen;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+a:link{
+    color:palegreen;
+}
+a:visited{
+    color:yellow;
+}
+a:hover{
+    color:crimson;
+}
+a:active{
+    color:white;
+}
